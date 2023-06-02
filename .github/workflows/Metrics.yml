@@ -27,7 +27,15 @@ jobs:
           
           plugin_languages: yes
           # plugin_languages_ignored: javascript, html, css
-          plugin_languages_limit: 10
+          plugin_languages_limit: 5
+          
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 1644934
+          plugin_stackoverflow_sections: answers-top
+          plugin_stackoverflow_limit: 2
+          
+          plugin_followup: yes
+          plugin_followup_indepth: yes
           
           plugin_lines: false
 
@@ -46,3 +54,6 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: VincentSit
+          
+        
+
